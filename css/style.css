@@ -221,8 +221,8 @@ section.services .cardcollection .card{
     width: auto;
 }
 .hero img{
- width: 25vh;
- height: 30vh; 
+ width: 15vh;
+ height: 20vh; 
  margin-left: 0;
  padding-left: 0;  
 }
@@ -231,7 +231,7 @@ section.services .cardcollection .card{
     color: red;
     margin-bottom: 0.5rem;
     margin-right: 0.3rem;
-     margin-left: 1rem;
+     margin-left: -1rem;
      font-weight: 600;
      margin-top: 1rem;
 }
@@ -239,7 +239,7 @@ section.services .cardcollection .card{
     font-size:1.5rem ;
     font-weight: 600;
     margin-bottom: 0.6rem;
-    margin-left: 0rem;
+    margin-left: -1rem;
 }
 .hero .right h1 span{
     color: var(--primary);
@@ -247,6 +247,7 @@ section.services .cardcollection .card{
 .hero .right p{
     line-height: 1.3rem;
     margin-bottom: 0.9rem;
+    margin-left: -1rem;
 }
 .right .btn1{
     display: none;
