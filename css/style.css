@@ -450,7 +450,10 @@ section.qualification .cardcollection .card{
     height: auto;
     width: auto;
 }
-
+ 
+nav .link a {
+Display:none;
+}
 
 
 
