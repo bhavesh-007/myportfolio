@@ -261,6 +261,66 @@ section.services .card h2{
   display: none;
 }
 
+section.qualification{
+    background:  #e0e0e0 
+}
+section.qualification .card{
+    background-color:white;
+
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 6rem;
+    text-align: center;
+    transition: all .3s ease;
+    
+    
+}
+section.qualification .card p{
+    color: white
+}
+section.qualification .card img{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+
+}
+section.qualification .card:hover{
+    background: black;
+   
+    cursor: pointer;
+    
+}
+section.qualification .card img:hover{
+    transform: scale(1.2);
+    transition:all .3s ease;
+    cursor: pointer;
+}
+section.qualification{
+     background: lightgray;
+    clip-path: polygon(0 0,100% 0,100% 90%,70% 92%,0 100%);
+}
+section.qualification .card span{
+    color: var(--primary);
+}
+.ltext h1,h3,p{
+    color: white;
+}
+section.qualification .card h2{
+    color: red ;
+    margin-bottom: 1rem;
+       
+}
+section.qualification .cardcollection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  
+
+}
+
 @keyframes move {
   0% {
     background-position: 0 0;
@@ -347,7 +407,18 @@ section.services .cardcollection .card{
 header .container{
     height: 35rem;
 }
+    section.qualification .cardcollection{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column-gap: 2rem;
+    
+   
 
+}
+section.qualification .cardcollection .card{
+    height: auto;
+    width: auto;
+}
 
 
 
