@@ -344,10 +344,6 @@ section.qualification .cardcollection img{
 } 
 @media  screen and (max-width:768px) {
 
-  nav .logo .link{
-      display: flex;
-      flex-direction: column;
-  }
 
   
     
