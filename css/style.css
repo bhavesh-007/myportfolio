@@ -175,7 +175,7 @@ section.services .card img{
 
 }
 section.services .card:hover{
-    background: black;
+    background: white
    
     cursor: pointer;
     
@@ -265,7 +265,7 @@ section.qualification{
     background:  #e0e0e0 
 }
 section.qualification .card{
-    background-color:white;
+    background-color:black;
 
     padding: 3rem 2rem;
     position: relative;
@@ -285,7 +285,7 @@ section.qualification .card img{
 
 }
 section.qualification .card:hover{
-    background: black;
+    background:white;
    
     cursor: pointer;
     
