@@ -348,9 +348,20 @@ section.qualification .cardcollection{
 section.services .cardcollection .card{
     height: auto;
     width: auto;
+   box-shadow: 5px 5px red;
+}
+
+section.qualification .cardcollection .card{
+    height: auto;
+    width: auto;
+   box-shadow: 5px 5px blueviolet;
 }
 section.qualification .cardcollection p{
-    color: blue;
+    color:blue;
+    font-style: italic;
+}
+section.qualification .container h1{
+    font-size: 2rem;
 }
 section.qualification .cardcollection .card img{
     height:100px;
