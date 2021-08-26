@@ -275,9 +275,7 @@ section.qualification .card{
     
     
 }
-section.qualification .card p{
-    color: white
-}
+
 section.qualification .card img{
     position: absolute;
     top: -3.5rem;
@@ -329,11 +327,27 @@ section.qualification .cardcollection{
     background-position: 50px 50px;
   }
 }
+section.qualification .cardcollection p{
+    color:blue;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+section.qualification .container p{
+    font-size:  1.5rem;
+}
+section.qualification .cardcollection h2  {
+   margin-top: 2rem;
+}
+section.qualification .cardcollection img{
+    width: 35%;
+    height: 40%;;
+} 
 @media  screen and (max-width:768px) {
 
-    nav .left .link{
-        display: none;
-    }
+  nav .logo .link{
+      display: flex;
+      flex-direction: column;
+  }
 
   
     
