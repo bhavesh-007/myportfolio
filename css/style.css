@@ -348,10 +348,44 @@ section.qualification .cardcollection img{
     width: 35%;
     height: 40%;;
 } 
+#hamburger1 span{
+    display: none;
+}
 @media  screen and (max-width:768px) {
 
+#hamburger1{
+    height: 3rem;
+    width: 7rem;
+    background:var(--primary);
+    border-radius: 10px 1px;
+    cursor: pointer;
 
-  
+}
+#hamburger1 span{
+    color: black;
+    font-size: 2.6rem;
+    margin-left: 4.3rem;
+    font-weight: 400%;
+    display: inline;
+}
+#navlink {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 8rem;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+  #navlink .open{
+      display: flex;
+      height: 200px;
+      -moz-text-align-last: auto;
+  }
     
     section.services .cardcollection{
     display: grid;
@@ -457,9 +491,6 @@ section.qualification .cardcollection .card{
     width: auto;
 }
  
-nav .link a {
-Display:none;
-}
 
 
 
