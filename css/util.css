@@ -28,6 +28,10 @@
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
+.btn2 a{
+    color: wheat;
+    text-decoration: none;
+}
 .btn-primary{
     background: transparent;
     border: solid blue;
