@@ -381,10 +381,9 @@ section.qualification .cardcollection img{
     align-items: center;
     display: none;
 }
-  #navlink .open{
+#navlink .open{
       display: flex;
-      height: 200px;
-      -moz-text-align-last: auto;
+      background-color: #3DCFD3;
   }
     
     section.services .cardcollection{
