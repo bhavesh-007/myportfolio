@@ -353,6 +353,9 @@ section.qualification .cardcollection img{
     display: none;
 }
 @media  screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
 
 #hamburger1 {
       height: 3rem;
