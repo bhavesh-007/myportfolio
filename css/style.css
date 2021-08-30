@@ -30,7 +30,7 @@ header{
 }
 header nav .left a{
     color: var(--pure);
-    text-decoration: none;
+  
     margin-right: 2rem;
     text-transform: uppercase;
     transition: all .3s ease;
@@ -41,6 +41,7 @@ margin-top: 50rem;
 }
 header nav .left a:hover{
     color: var(--primary);
+    
         
 }
 
@@ -353,38 +354,52 @@ section.qualification .cardcollection img{
 }
 @media  screen and (max-width:768px) {
 
-#hamburger1{
-    height: 3rem;
-    width: 7rem;
-    background:var(--primary);
+#hamburger1 {
+      height: 3rem;
+    width: 4rem;
+    background: var(--primary);
     border-radius: 10px 1px;
     cursor: pointer;
-
+    right: 0px;
+    top: 1rem;
+    margin-left: 28rem;
+   
 }
+
+
 #hamburger1 span{
     color: black;
     font-size: 2.6rem;
-    margin-left: 4.3rem;
+    margin-left: 0.4rem;
     font-weight: 400%;
     display: inline;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
 }
-#navlink {
-    display: flex;
-    flex-direction: column;
-    position:absolute;
-    height: 100vh;
-    width: 100%;
-    font-size: 2rem;
-    line-height: 8rem;
-    background: red;
-    justify-content: center;
-    align-items: center;
-    display: none;
+.nav-link {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+   top: 20vh; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   background-color: #3DCFD3;
+line-height: 6rem;
+transform: translateX(100%);
+list-style: none;
+    
 }
-#navlink .open{
-      display: flex;
-      background-color: #3DCFD3;
-  }
+#navlink a:hover{
+    color: black;
+}
+.nav-active {
+    transform: translateX(0%);
+    
+}
+ 
     
     section.services .cardcollection{
     display: grid;
