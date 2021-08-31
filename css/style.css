@@ -5,6 +5,9 @@
     --ternary:#898989;
     --light:#F2F2F2;
 }
+body{
+    overflow-x: hidden;
+}
 *{
     padding: 0;
     margin: 0;
@@ -13,8 +16,9 @@
 }
 #navlink{
     display: inline-flex;
+    list-style: none;
 }
-#navlink a{
+#navlink a {
     list-style: none;
     text-decoration: none;
 }
@@ -352,21 +356,25 @@ section.qualification .cardcollection img{
 #hamburger1 span{
     display: none;
 }
-@media  screen and (max-width:768px) {
-    body{
-        overflow-x: hidden;
+@media  screen and (max-width:768px)
+
+{
+    body {
+        overflow-y: hidden;
+
     }
+  
 
 #hamburger1 {
-      height: 3rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     background: var(--primary);
     border-radius: 10px 1px;
     cursor: pointer;
-    right: 0px;
-    top: 1rem;
-    margin-left: 28rem;
-   
+    top: 5px;
+    margin-left: 10px;
+    position: fixed;
+    left: 299px;
 }
 
 
@@ -380,26 +388,16 @@ section.qualification .cardcollection img{
     cursor: pointer;
 
 }
-.nav-link {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-   top: 20vh; 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 100%;
-   background-color: #3DCFD3;
-line-height: 6rem;
-transform: translateX(100%);
-list-style: none;
-    
+#navlink{
+    display: none;
 }
-#navlink a:hover{
+
+
+#navlink a:hover {
     color: black;
 }
 .nav-active {
-    transform: translateX(0%);
+   
     
 }
  

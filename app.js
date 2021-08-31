@@ -6,5 +6,5 @@ var ham2=document.getElementById("hamburger2");
 ham.addEventListener('click',() =>{
     navlink.classList.toggle("nav-active");
     download.hidden=true;
-    alert("Bhavesh Mahawar Welcomes You")
+    alert("Navlink Under development")
 });
